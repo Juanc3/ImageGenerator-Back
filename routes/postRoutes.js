@@ -1,7 +1,7 @@
 import express from "express";
 import * as dotenv from "dotenv";
 import { v2 as cloudinary } from "cloudinary";
-import cron from "node-cron";
+// import cron from "node-cron";
 
 import PostSchema from "../database/models/post.js";
 
